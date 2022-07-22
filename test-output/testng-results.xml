@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[test case one]]>
+    </line>
+    <line>
+      <![CDATA[test case two]]>
+    </line>
+    <line>
+      <![CDATA[Test case three jfhjfkdj ]]>
+    </line>
+    <line>
+      <![CDATA[Test case three]]>
+    </line>
+    <line>
+      <![CDATA[
+Test case next line]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45" started-at="2022-07-21T11:47:15Z" finished-at="2022-07-21T11:47:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45" started-at="2022-07-21T11:47:15Z" finished-at="2022-07-21T11:47:15Z">
+      <class name="com.automation.sample.TestNGClass">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:com.automation.sample.TestNGClass@387c703b]" name="shouldAnswerWithTrue" duration-ms="15" started-at="2022-07-21T17:17:15Z" finished-at="2022-07-21T17:17:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test case one]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+        <test-method status="PASS" signature="shouldAnswerWithTrue1()[pri:0, instance:com.automation.sample.TestNGClass@387c703b]" name="shouldAnswerWithTrue1" duration-ms="3" started-at="2022-07-21T17:17:15Z" finished-at="2022-07-21T17:17:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test case two]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue1 -->
+        <test-method status="PASS" signature="shouldAnswerWithTrue2()[pri:0, instance:com.automation.sample.TestNGClass@387c703b]" name="shouldAnswerWithTrue2" duration-ms="1" started-at="2022-07-21T17:17:15Z" finished-at="2022-07-21T17:17:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case three jfhjfkdj ]]>
+            </line>
+            <line>
+              <![CDATA[Test case three]]>
+            </line>
+            <line>
+              <![CDATA[
+Test case next line]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue2 -->
+      </class> <!-- com.automation.sample.TestNGClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
