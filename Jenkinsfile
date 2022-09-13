@@ -8,7 +8,7 @@ pipeline {
         }
       }
     }
-stages {
+
     stage ('Testing Stage') {
       steps{
         withMaven(maven : 'MAVEN_HOME'){
