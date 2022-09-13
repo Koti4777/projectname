@@ -11,7 +11,7 @@ pipeline {
         }
 
    
-            stage('Stage1') {
+            stage('Stage2') {
             steps{
             catchError {
           build quietPeriod: 10, job: 'DempProject2'
