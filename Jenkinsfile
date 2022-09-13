@@ -1,14 +1,22 @@
 pipeline {
   agent any
   stages {
-    stage ('Compile Stage') {
+    stage ('validate Stage') {
       steps{
         withMaven(maven : 'MAVEN_HOME'){
-          bat 'mvn clean compile'
+          bat 'mvn clean validate'
         }
       }
     }
 
+    stage ('Compile Stage') {
+      steps{
+        withMaven(maven : 'MAVEN_HOME'){
+         bat 'mvn clean compile'
+        }
+      }
+    }
+    
     stage ('Testing Stage') {
       steps{
         withMaven(maven : 'MAVEN_HOME'){
@@ -16,6 +24,12 @@ pipeline {
         }
       }
     }
-    
+    stage ('package Stage') {
+      steps{
+        withMaven(maven : 'MAVEN_HOME'){
+          bat 'mvn clean package'
+        }
+      }
+    }
   }
 }
