@@ -11,13 +11,13 @@ public class TestNGClass {
 	 @Test
 	    public void shouldAnswerWithTrue()
 	    {
-	      Reporter.log("test case one");
+	      Reporter.log("test case one edit");
 	    }
 	 
 	 @Test
 	    public void shouldAnswerWithTrue1()
 	    {
-		 Reporter.log("test case two");
+		 Reporter.log("test case two edit");
 		  String str2="two";
 	       Assert.assertEquals("two", str2,"testng testing");
 	      

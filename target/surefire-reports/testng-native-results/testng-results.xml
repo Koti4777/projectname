@@ -18,26 +18,26 @@
 Test case next line]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-07-21T22:39:08 IST" name="Surefire suite" finished-at="2022-07-21T22:39:08 IST" duration-ms="44">
+  <suite started-at="2022-10-06T12:34:28 IST" name="Surefire suite" finished-at="2022-10-06T12:34:28 IST" duration-ms="141">
     <groups>
     </groups>
-    <test started-at="2022-07-21T22:39:08 IST" name="Surefire test" finished-at="2022-07-21T22:39:08 IST" duration-ms="44">
+    <test started-at="2022-10-06T12:34:28 IST" name="Surefire test" finished-at="2022-10-06T12:34:28 IST" duration-ms="141">
       <class name="com.automation.sample.TestNGClass">
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:com.automation.sample.TestNGClass@61862a7f]" started-at="2022-07-21T22:39:08 IST" name="shouldAnswerWithTrue" finished-at="2022-07-21T22:39:08 IST" duration-ms="7" status="PASS">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:com.automation.sample.TestNGClass@61862a7f]" started-at="2022-10-06T12:34:28 IST" name="shouldAnswerWithTrue" finished-at="2022-10-06T12:34:28 IST" duration-ms="15" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[test case one]]>
             </line>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
-        <test-method signature="shouldAnswerWithTrue1()[pri:0, instance:com.automation.sample.TestNGClass@61862a7f]" started-at="2022-07-21T22:39:08 IST" name="shouldAnswerWithTrue1" finished-at="2022-07-21T22:39:08 IST" duration-ms="1" status="PASS">
+        <test-method signature="shouldAnswerWithTrue1()[pri:0, instance:com.automation.sample.TestNGClass@61862a7f]" started-at="2022-10-06T12:34:28 IST" name="shouldAnswerWithTrue1" finished-at="2022-10-06T12:34:28 IST" duration-ms="4" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[test case two]]>
             </line>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue1 -->
-        <test-method signature="shouldAnswerWithTrue2()[pri:0, instance:com.automation.sample.TestNGClass@61862a7f]" started-at="2022-07-21T22:39:08 IST" name="shouldAnswerWithTrue2" finished-at="2022-07-21T22:39:08 IST" duration-ms="0" status="PASS">
+        <test-method signature="shouldAnswerWithTrue2()[pri:0, instance:com.automation.sample.TestNGClass@61862a7f]" started-at="2022-10-06T12:34:28 IST" name="shouldAnswerWithTrue2" finished-at="2022-10-06T12:34:28 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test case three jfhjfkdj ]]>

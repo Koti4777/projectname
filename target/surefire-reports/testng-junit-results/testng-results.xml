@@ -18,16 +18,16 @@
 Test case next line]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-07-21T22:39:08 IST" name="Surefire suite" finished-at="2022-07-21T22:39:08 IST" duration-ms="61">
+  <suite started-at="2022-10-06T12:34:29 IST" name="Surefire suite" finished-at="2022-10-06T12:34:29 IST" duration-ms="113">
     <groups>
     </groups>
-    <test started-at="2022-07-21T22:39:08 IST" name="Surefire test" finished-at="2022-07-21T22:39:08 IST" duration-ms="61">
+    <test started-at="2022-10-06T12:34:29 IST" name="Surefire test" finished-at="2022-10-06T12:34:29 IST" duration-ms="113">
       <class name="com.automation.sample.AppTest">
-        <test-method signature="shouldAnswerWithTrue()" started-at="2022-07-21T22:39:08 IST" name="shouldAnswerWithTrue" finished-at="2022-07-21T22:39:08 IST" duration-ms="4" status="PASS">
+        <test-method signature="shouldAnswerWithTrue()" started-at="2022-10-06T12:34:29 IST" name="shouldAnswerWithTrue" finished-at="2022-10-06T12:34:29 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
-        <test-method signature="shouldAnswerWithFalse()" started-at="2022-07-21T22:39:08 IST" name="shouldAnswerWithFalse" finished-at="2022-07-21T22:39:08 IST" duration-ms="5" status="PASS">
+        <test-method signature="shouldAnswerWithFalse()" started-at="2022-10-06T12:34:29 IST" name="shouldAnswerWithFalse" finished-at="2022-10-06T12:34:29 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithFalse -->
