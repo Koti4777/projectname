@@ -26,7 +26,8 @@ public class TestNGClass {
 	 @Test
 	    public void shouldAnswerWithTrue2()
 	    {
-		 Reporter.log("Test case three jfhjfkdj ");
+		 Reporter.log("Test case three");
+		 System.out.println("Hello praveen");
 	       String str2="two";
 	       Assert.assertEquals("two", str2);
 	       Reporter.log("Test case three");
