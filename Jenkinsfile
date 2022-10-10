@@ -1,24 +1,35 @@
 pipeline {
   agent any
   stages {
-           stage('Stage1') {
-            steps{
-            catchError {
-           build quietPeriod: 10, job: 'DemoProject'
-                }
-                echo currentBuild.result
-            }
+    stage ('validate Stage') {
+      steps{
+        withMaven(maven : 'MAVEN_HOME'){
+          bat 'mvn clean validate'
         }
+      }
+    }
 
-   
-            stage('Stage2') {
-            steps{
-            catchError {
-          build quietPeriod: 10, job: 'DempProject2'
-                }
-                echo currentBuild.result
-            }
+    stage ('Compile Stage') {
+      steps{
+        withMaven(maven : 'MAVEN_HOME'){
+         bat 'mvn clean compile'
         }
-   
+      }
+    }
+    
+    stage ('Testing Stage') {
+      steps{
+        withMaven(maven : 'MAVEN_HOME'){
+          bat 'mvn clean test'
+        }
+      }
+    }
+    stage ('package Stage') {
+      steps{
+        withMaven(maven : 'MAVEN_HOME'){
+          bat 'mvn clean package'
+        }
+      }
+    }
   }
 }
